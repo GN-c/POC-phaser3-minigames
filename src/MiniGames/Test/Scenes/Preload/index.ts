@@ -1,5 +1,4 @@
 import BaseScene from "@Helpers/BaseScene";
-import "@Helpers/MiniGameLoader";
 
 export default class PreloadScene extends BaseScene {
   constructor() {
@@ -7,7 +6,7 @@ export default class PreloadScene extends BaseScene {
   }
 
   preload() {
-    this.load.miniGame("Test");
+    this.load.image("crosshair");
   }
 
   create() {
