@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "noImplicitThis": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "paths": {
+      "@GameObjects/*": ["src/GameObjects/*"],
+      "@Scenes/*": ["src/Scenes/*"],
+      "@Helpers/*": ["src/Helpers/*"],
+      "@Utils": ["src/Helpers/Utils/index.ts"],
+      "@Game": ["src/index.ts"]
+    }
+  },
+  "include": ["src"],
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}

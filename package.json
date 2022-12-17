@@ -1,0 +1,31 @@
+{
+  "name": "phaser3-ultimate-boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "webpack serve --mode development --progress --color",
+    "build": "webpack --mode production"
+  },
+  "devDependencies": {
+    "@types/copy-webpack-plugin": "^10.1.0",
+    "@types/fs-extra": "^9.0.13",
+    "@types/node": "^18.11.15",
+    "@types/webpack": "^5.28.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "glsl-optimizer-js": "0.0.2",
+    "glslify": "^7.1.1",
+    "html-webpack-plugin": "^5.5.0",
+    "phaser3spectorjs": "^0.0.8",
+    "ts-loader": "^9.0.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths-webpack-plugin": "^4.0.0",
+    "typescript": "^4.9.4",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.1.14",
+    "webpack-glsl-minify": "^1.5.0"
+  },
+  "dependencies": {
+    "phaser": "v3.60.0-beta.17"
+  }
+}
