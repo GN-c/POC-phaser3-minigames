@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkphaser3_ultimate_boilerplate=self.webpackChunkphaser3_ultimate_boilerplate||[]).push([[403],{38403:(e,a,s)=>{s.r(a),s.d(a,{default:()=>r});var t=s(33624);class r extends t.Z{constructor(){super("Preload")}preload(){this.load.image("crosshair")}create(){this.scene.start("Game")}}}}]);

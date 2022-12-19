@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkphaser3_ultimate_boilerplate=self.webpackChunkphaser3_ultimate_boilerplate||[]).push([[306],{28306:(e,t,a)=>{a.r(t),a.d(t,{default:()=>r});var s=a(33624);class r extends s.Z{constructor(){super("Boot")}preload(){}create(){this.scene.start("Preload")}}}}]);
